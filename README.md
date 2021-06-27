@@ -10,7 +10,7 @@ implementation 'com.google.firebase:firebase-messaging-ktx' // 추가
 ~~~
 
 ### Cloud Messaging Background vs Foreground
-Background 상태에서는 Firebase 단에서 메세지를 알림
+Background 상태에서는 Firebase 단에서 메세지를 알림  
 Foreground 상태에서는 직접 정의 해줘야 함 (onMessageReceived)
 ~~~kotlin
 // create MyFirebaseMessagingService.kt
