@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793515655047",
+    "project_id": "push-alarm-be571",
+    "storage_bucket": "push-alarm-be571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793515655047:android:bb1bd6c88b14da9fc05d22",
+        "android_client_info": {
+          "package_name": "com.example.push_alarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793515655047-g1a5b8pmqecifrf1tqmhqho7shbb2uu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVN4OyxdVaRXgEJkWlt6YAIO-6KceMSHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793515655047-g1a5b8pmqecifrf1tqmhqho7shbb2uu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결과"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        tools:text="result..."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Firebase 토큰"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fireabaseTokenTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:textIsSelectable="true"
+        tools:text="loading..."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="How to Run?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:text="Firebase > 문서 >
+        \n      참고(참조) > REST >
+        \n              Cloud Messaging > send
+        \n
+        \n
+    \n      &quot;message&quot;: {
+    \n              &quot;token&quot;: &quot;토큰&quot;,
+    \n                      &quot;data&quot;: {
+    \n                              &quot;type&quot;: &quot;CUSTOM&quot;,
+    \n                              &quot;title&quot;: &quot;제목&quot;,
+    \n                              &quot;text&quot;: &quot;내용&quot;
+    \n                      }
+    \n              }
+    \n      }"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
